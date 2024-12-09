@@ -1,8 +1,28 @@
+import Footer from './containers/footer/Footer'
+import Blog from './containers/blog/Blog'
+import Possibility from './containers/possibility/Possibility'
+import Features from './containers/features/Features'
+import WhatGPT from './containers/whatGPT5/WhatGPT5'
+import Header from './containers/header/Header'
+import CTA from './components/cta/CTA'
+import Brand from './components/brand/Brand'
+import Navbar from './components/navbar/Navbar'
+
 
 const App = () => {
   return (
-    <div>
-      <h2>Hello World.</h2>
+    <div className='App'>
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   )
 }
