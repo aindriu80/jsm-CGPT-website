@@ -7,6 +7,7 @@ import Header from './containers/header/Header'
 import CTA from './components/cta/CTA'
 import Brand from './components/brand/Brand'
 import Navbar from './components/navbar/Navbar'
+import './App.css'
 
 
 const App = () => {
