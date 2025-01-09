@@ -47,7 +47,7 @@
 }
 .gpt__navbar-sign button,
 .gpt__navbar-menu_container button {
-  padding: 1rem 1rem;
+    padding: 0.5rem 1rem;
   color: #fff;
   background: #ff4820;
   font-family: var(--font-family);
@@ -55,7 +55,7 @@
   font-size: 18px;
   line-height: 25px;
   border-radius: 5px;
-  border: 0;
+    border: none;
   outline: none;
   cursor: pointer;
 }
@@ -84,7 +84,7 @@
   margin-top: 1rem;
   min-width: 210px;
   border-radius: 5px;
-  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
 }
 .gpt__navbar-menu_container p {
   margin: 1rem 0;
@@ -109,7 +109,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 550px) {
   .gpt__navbar {
     padding: 2rem;
   }
